@@ -15,3 +15,6 @@ INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 2);
 INSERT INTO tb_user_role (user_id, role_id) VALUES (3, 3);
 
 INSERT INTO tb_course (name, img_Url, img_Gray_Uri) VALUES ('Bootcamp HTML', 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fgetinmooc&psig=AOvVaw2Y0MDuxR0u6kHVYdo_tZMP&ust=1690290305070000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOjEgru1p4ADFQAAAAAdAAAAABAJ', 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.coursera.org%2Flearn%2Fgetinmooc&psig=AOvVaw2Y0MDuxR0u6kHVYdo_tZMP&ust=1690290305070000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCOjEgru1p4ADFQAAAAAdAAAAABAJ'); 
+
+INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('1.0', TIMESTAMP WITH TIME ZONE '2023-07-12T03:00:00Z',  TIMESTAMP WITH TIME ZONE '2023-12-7T03:00:00Z', '1');
+INSERT INTO tb_offer (edition, start_Moment, end_Moment, course_id) VALUES ('2.0', TIMESTAMP WITH TIME ZONE '2023-07-12T03:00:00Z',  TIMESTAMP WITH TIME ZONE '2024-12-7T03:00:00Z', '1');
