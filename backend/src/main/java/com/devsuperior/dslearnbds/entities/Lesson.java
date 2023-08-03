@@ -5,6 +5,14 @@ import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 
+import javax.persistence.Entity;
+import javax.persistence.Inheritance;
+import javax.persistence.InheritanceType;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "tb_course")
+@Inheritance(strategy = InheritanceType.JOINED)
 public abstract class Lesson implements Serializable{ //Não é possivel instanciar essa classe
 
 	private static final long serialVersionUID = 1L;
