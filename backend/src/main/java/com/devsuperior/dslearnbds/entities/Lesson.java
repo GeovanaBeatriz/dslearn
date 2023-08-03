@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 
-public class Lesson implements Serializable{
+public abstract class Lesson implements Serializable{ //Não é possivel instanciar essa classe
 
 	private static final long serialVersionUID = 1L;
 	
