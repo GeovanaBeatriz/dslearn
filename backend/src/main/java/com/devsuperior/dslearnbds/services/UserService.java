@@ -8,8 +8,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.devsuperior.dscatalog.entities.User;
-import com.devsuperior.dscatalog.repositories.UserRepository;
+import com.devsuperior.dslearnbds.entities.User;
+import com.devsuperior.dslearnbds.repositories.UserRepository;
 
 @Service
 public class UserService implements UserDetailsService{
